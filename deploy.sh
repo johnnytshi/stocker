@@ -1,1 +1,1 @@
-sam deploy --template-file packaged-template.yaml --stack-name StockerK --capabilities CAPABILITY_IAM
+sam deploy --template-file packaged-template.yaml --stack-name Stock --capabilities CAPABILITY_IAM

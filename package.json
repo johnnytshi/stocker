@@ -4,6 +4,11 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@slack/client": "^3.14.2",
+    "alphavantage": "^1.0.0",
+    "aws-sdk": "^2.163.0",
+    "bluebird": "^3.5.1",
+    "fast-csv": "^2.4.1",
     "yahoo-finance-data": "^3.2.0"
   },
   "devDependencies": {},

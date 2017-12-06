@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Description: A simple Hello World Serverless project
 Resources:
-  Main:
+  Realtime:
     Properties:
       CodeUri: s3://johnny-stocker/b1a8747b0b01c45e89772f83c65f0aba
       Handler: index.handler

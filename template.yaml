@@ -3,13 +3,16 @@ Transform: AWS::Serverless-2016-10-31
 
 Description: A simple Hello World Serverless project
 Resources:
-  Main:
+  Realtime:
     Type: AWS::Serverless::Function
     Properties:
       Runtime: nodejs6.10
+      Timeout: 200
       Handler: index.handler
       CodeUri: .
       Environment:
         Variables:
-          KEY: foo
-          SECRET: bar
+          YAHOO_KEY: foo
+          YAHOO_SECRET: foo
+          ALPHA_VANTAGE_KEY: foo
+          SLACK_API_TOKEN: foo
