@@ -1,1 +1,1 @@
-sam local invoke "Realtime" -e event.json --env-vars env.json
+sam local invoke "Realtime" -e event.json

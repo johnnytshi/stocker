@@ -12,7 +12,7 @@ Resources:
       CodeUri: .
       Environment:
         Variables:
-          YAHOO_KEY: foo
-          YAHOO_SECRET: foo
-          ALPHA_VANTAGE_KEY: foo
-          SLACK_API_TOKEN: foo
+          YAHOO_KEY: "dj0yJmk9VFlFUkJORW9XNjNNJmQ9WVdrOVluUlBZVlJZTXpRbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1kMA--"
+          YAHOO_SECRET: "6b724a1f08684961bc8a05ecd44164633497ede3"
+          ALPHA_VANTAGE_KEY: "SGNPZHDYMF74SXOU,GQ5JY788EPA5ZMDM"
+          SLACK_API_TOKEN: "xoxb-263626238676-jnGkIGzDbj4DUqObtq0JDhg2"

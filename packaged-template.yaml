@@ -3,8 +3,15 @@ Description: A simple Hello World Serverless project
 Resources:
   Realtime:
     Properties:
-      CodeUri: s3://johnny-stocker/b1a8747b0b01c45e89772f83c65f0aba
+      CodeUri: s3://johnny-stocker/build.tar.gz
       Handler: index.handler
       Runtime: nodejs6.10
+      Timeout: 180
+      Environment:
+        Variables:
+          YAHOO_KEY: "dj0yJmk9VFlFUkJORW9XNjNNJmQ9WVdrOVluUlBZVlJZTXpRbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1kMA--"
+          YAHOO_SECRET: "6b724a1f08684961bc8a05ecd44164633497ede3"
+          ALPHA_VANTAGE_KEY: "SGNPZHDYMF74SXOU,GQ5JY788EPA5ZMDM,GMBB6RI5ZY9F9DHA,CIP266WQI3G9TSBM"
+          SLACK_API_TOKEN: "xoxb-263626238676-jnGkIGzDbj4DUqObtq0JDhg2"
     Type: AWS::Serverless::Function
 Transform: AWS::Serverless-2016-10-31

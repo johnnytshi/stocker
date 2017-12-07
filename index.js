@@ -40,7 +40,7 @@ exports.handler = (event, context, callback) => {
                 // get a random key
                 var api_keys = process.env.ALPHA_VANTAGE_KEY.split(',');
                 var random = Math.floor(Math.random() * api_keys.length);
-                return alpha({key: api_keys[random]}).technical.rsi(symbol, '1min', '14', 'close')
+                return alpha({key: api_keys[random]}).technical.rsi(symbol, '10min', '14', 'close')
                 .then(data => {
                     var RSIs = data['Technical Analysis: RSI'];
                     if (RSIs) {
